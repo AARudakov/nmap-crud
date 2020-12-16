@@ -1,8 +1,8 @@
 # nmap-crud
 
 nmap-crud
-Example: 
-* save the nmap scan results to the PostgreSQL
+Example application: 
+* saves the nmap scan results to the PostgreSQL
 * generates a report for open ports and sends it to telegram
 
 ## Installation
