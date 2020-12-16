@@ -1,0 +1,24 @@
+{
+  "name": "nmap-crud",
+  "version": "1.0.0",
+  "description": "nmap-crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "contmon"
+  ],
+  "author": "Rudakov Alex",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-nmap": "^4.0.0",
+    "pg": "^8.4.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "telegraf": "^3.38.0"
+  }
+}
