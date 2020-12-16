@@ -1,5 +1,5 @@
 const { Telegraf } = require('telegraf');
-const BOT_TOKEN = "1273827170:AAHOCrKkqibS8WAFdOmrlOT26YnLjC8yDiE";
+const BOT_TOKEN = "";
 const bot = new Telegraf(BOT_TOKEN);
 const report = require("../controllers/report.controller");
 
