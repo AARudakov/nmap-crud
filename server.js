@@ -39,7 +39,7 @@ Telegram.run().catch((error)=>{console.log("Telegram error: " + error.message)})
 async function array_scan () {
     nmap.get_list().then((scan_list)=>{
         scan_list.forEach((scanListKey) =>{
-            console.log("Scan " + scanListKey.toString() + typeof scanListKey + "\n");
+            console.log("Scan " + scanListKey.toString() + "\n");
             nmap.scan_art(scanListKey.toString());
         });
     })

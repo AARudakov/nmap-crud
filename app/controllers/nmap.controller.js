@@ -32,7 +32,6 @@ exports.scan_art = (IPaddr) => {
                                 Port.create({"number": str_port, "description": str_desc})
                                     .then((newPort)=>{
                                         const nSNOP = {
-                                            "state": true,
                                             "portId": newPort.id,
                                             "netObjectId": newNetObject[0].id,
                                             "scanId": newScan.id
